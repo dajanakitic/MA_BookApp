@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFEB3B"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginTop="220dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rotation="-15"
+            android:textSize="60sp"
+            android:fontFamily="serif-monospace"
+            android:textStyle="bold"
+            android:textColor="#142EB9"
+            android:text="BookApp"/>
+
+
+        <ImageView
+            android:id="@+id/welcome_image"
+            android:layout_width="351dp"
+            android:layout_height="599dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="-50dp"
+            android:layout_marginBottom="100dp"
+            android:src="@drawable/books_splash" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
